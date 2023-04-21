@@ -30,7 +30,7 @@
 
         <ul id="incompleteTasks">
 
-          <li>
+          <form>
             <input type="checkbox">
             <label class="task">Pay Bills</label>
             <input type="text" class="task">
@@ -38,23 +38,22 @@
             <button class="delete">
               <img src="./remove.svg" alt="delete button image">
             </button>
-          </li>
+          </form>
 
-          <li class="editMode"><input type="checkbox">
+          <form class="editMode"><input type="checkbox">
             <label class="task">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task">
             <button class="edit">Save</button>
             <button class="delete">
               <img src="./remove.svg" alt="delete button image">
             </button>
-          </li>
+          </form>
 
         </ul>
 
         <h3>Completed</h3>
 
-        <ul id="completed-tasks">
-          <li>
+        <form id="completed-tasks">
             <input type="checkbox" checked>
             <label class="task">See the Doctor</label>
             <input type="text" class="task">
@@ -62,8 +61,7 @@
             <button class="delete">
               <img src="./remove.svg" alt="delete button image">
             </button>
-          </li>
-        </ul>
+        </form>
     </div>
 
     <script type="text/javascript" SRC="app.js"></script>
