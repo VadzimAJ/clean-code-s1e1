@@ -130,7 +130,7 @@ input[type="text"] {
     margin: 0 10px;
 }
 
-.task > .task_label {
+.task > .task__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -152,7 +152,7 @@ input[type="text"] {
 }
 
 /* Completed */
-.completed-tasks .task_label{
+.completed-tasks .task__label{
     text-decoration: line-through;
     color: #888;
 }
@@ -169,7 +169,7 @@ input[type="text"] {
     width:224px;
 }
 
-.task-list li.editMode .task_label, 
-.completed-tasks li.editMode .task_label {
+.task-list .editMode .task__label, 
+.completed-tasks .editMode .task__label {
     display:none;
 }
